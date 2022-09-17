@@ -15,7 +15,7 @@
         android:hint="ten dang nhap"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="176dp"></EditText>
+        tools:layout_editor_absoluteY="176dp" />
 
     <EditText
     android:id="@+id/edEmail"
@@ -45,8 +45,19 @@
         android:id="@+id/Btnlogin"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:layout_marginTop="76dp"
         android:text="login"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/edCfpass"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/BtnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="BtnSignUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Btnlogin" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

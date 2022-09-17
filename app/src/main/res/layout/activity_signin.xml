@@ -8,11 +8,11 @@
     android:paddingTop="?attr/actionBarSize">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edName"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:hint="ten dang nhap"
-        app:layout_constraintBottom_toTopOf="@+id/pass"
+        app:layout_constraintBottom_toTopOf="@+id/Edpass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.794"></EditText>
 
     <EditText
-        android:id="@+id/pass"
+        android:id="@+id/Edpass"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginBottom="296dp"
@@ -36,14 +36,14 @@
         android:layout_height="40dp"
         android:text="login"
         android:layout_marginBottom="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/SignUp"
+        app:layout_constraintBottom_toTopOf="@+id/BtnSignUp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"></Button>
 
     <Button
         android:text="signup"
-        android:id="@+id/SignUp"
+        android:id="@+id/BtnSignUp"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginBottom="132dp"
